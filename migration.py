@@ -18,7 +18,7 @@ def execute_values(conn, df, table):
         conn.rollback()
         cursor.close()
         return 1
-    print("the dataframe is inserted")
+    print("the dataframe is inserted")    
     cursor.close()
 conn = psycopg2.connect(
     database="dbezl1uquldojv", user='uhgpgzxv2hhak', password='700Flower!', host='abogadoericprice.com', port='5432'
